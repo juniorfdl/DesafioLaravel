@@ -7,10 +7,7 @@ https://hub.docker.com/r/juniorfdl2/laravel
     git clone https://github.com/juniorfdl/DesafioLaravel.git
     cd DesafioLaravel
     docker-compose up -d --build
-    
-    docker exec -it -u root app bash
-    composer install
-    php artisan key:generate
-    php artisan migrate
-    php artisan serve
+
+    Docker Image Hello World Go Lang: juniorfdl2/codeeducation
+
 </pre>
